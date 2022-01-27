@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  .content{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+  }
+  .content .images{
+    height: 100%;
+    width: 100%;
+  }
+  .images img{
+    height: 100%;
+    width: 100%;
+  }
+
+
+.btns button{
+	backgroun-color: #04AA6D;
+	border: 1px solid green;
+	color: white;
+	padding: 10px 24px;
+	cursor: pointer;
+	float: left;
+}
+
+.btns button:not(:last-child) {
+	border-right:none;
+}
+
+.btns button:hover {
+	background-color: #3e8e41;
+}
